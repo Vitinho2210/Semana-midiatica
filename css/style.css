@@ -3,9 +3,10 @@
 :root {
     --cor-principal: #EDE8D0;
     --cor-secundaria: #06402B;
-    --cor-texto: #131313;
-    --fonte-titulo: 'stack-sans-notch', sans-serif;
-    --fonte-texto: 'chivo-mono', monospace;
+    --cor-texto: #2e2d2d;
+    --fonte-titulo: "Stack Sans Notch", sans-serif;
+    --fonte-subtitulo: "Caacupe One", sans-serif;
+    --fonte-texto: "Chivo Mono", monospace;
 }
 
 /* reset */
@@ -20,6 +21,14 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 /* configurações básicas */
 
 body {
@@ -29,6 +38,3 @@ body {
 p {
     color: var(--cor-texto);
 }
-
-/**/
-/**/
