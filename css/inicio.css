@@ -1,0 +1,124 @@
+/* navbar e menu */
+
+nav {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    .divlogo {
+        color: var(--cor-principal);
+        font-size: 30px;
+        font-family: var(--fonte-titulo);
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .menu-icone {
+        position: fixed;
+        top: 1.5rem;
+        left: 2rem;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 1002;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu-icone span {
+        display: block;
+        height: 3px;
+        background-color: var(--cor-branca);
+        border-radius: 2px;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        width: 35px;
+    }
+
+    .slide-menu {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: var(--cor-secundaria);
+        transition: left 0.3s ease-in-out;
+        padding: 60px;
+        z-index: 1001;
+        color: var(--cor-branca);
+    }
+
+    .slide-menu ul {
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        border-bottom: 1px solid var(--cor-principal);
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-menu li:hover {
+        cursor: pointer;
+        transform: translateY(-3px);
+    }
+
+    .links {
+        margin-top: 180%;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none;
+    }
+
+    #menu-toggle:checked ~ .slide-menu {
+        left: 0;
+    }
+
+    #menu-toggle:checked ~ .overlay {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #menu-toggle:checked ~ .menu-icone span:nth-child(1) {
+        transform: rotate(45deg) translateY(18.6px);
+        background: var(--cor-branca)
+    }
+
+    #menu-toggle:checked ~ .menu-icone span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked ~ .menu-icone span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-18.6px);
+        background: var(--cor-branca)
+    }
+
+    /* botão iniciar quiz */
+
+    .slide-menu .quiz-botao a {
+        margin-top: 30px;
+        }
+
+}
+
+/**/
+/**/
