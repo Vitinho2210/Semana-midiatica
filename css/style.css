@@ -43,6 +43,12 @@ p {
     color: var(--cor-texto);
 }
 
+.titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-branca);
+    font-size: 60px;
+}
+
 .quiz-botao {
         display: flex;
         justify-content: center;
