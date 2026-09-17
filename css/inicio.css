@@ -18,6 +18,10 @@ nav {
         font-family: var(--fonte-titulo);
     }
 
+    .divlogo:hover a{
+        color: rgb(201, 197, 197);
+    }
+
     #menu-toggle {
         display: none;
     }
@@ -128,6 +132,7 @@ nav {
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../img/green-iot-02-smart-farm.webp');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero {
@@ -144,4 +149,45 @@ nav {
     font-size: 40px;
 }
 
-/**/
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* sobre */
+
+#sobre .container{
+    background-image: none;
+    padding-block: 7%;
+    padding-inline: 20px;
+
+    .sobre-conteudo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 50px;
+        padding-top: 50px;
+
+        .sobre-img {
+            width: 40rem;
+            aspect-ratio: 16/9;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                z-index: 2000;
+                transition: 0.2s ease-in-out;
+
+            }
+        }
+
+        .sobre-img img:hover {
+            transform: scale(1.04);
+        }
+    }
+}
