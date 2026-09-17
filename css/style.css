@@ -46,7 +46,12 @@ p {
 .titulo {
     font-family: var(--fonte-titulo);
     color: var(--cor-branca);
-    font-size: 60px;
+    font-size: 80px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: var(--cor-principal);
 }
 
 .quiz-botao {
