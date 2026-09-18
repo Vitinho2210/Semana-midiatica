@@ -4,7 +4,7 @@
     --cor-principal: #e9e1b7;
     --cor-secundaria: #06402B;
     --cor-terciaria: #052c1e;
-    --cor-texto: #2e2d2d;
+    --cor-texto: #353434;
     --cor-branca: #F7F9FA;
     --cor-preta: #0f0f0f;
     --fonte-titulo: "Stack Sans Notch", sans-serif;
@@ -33,7 +33,7 @@ ul {
     list-style: none;
 }
 
-/* configurações básicas */
+/* configurações básicas e padrões */
 
 body {
     font-family: var(--fonte-texto);
