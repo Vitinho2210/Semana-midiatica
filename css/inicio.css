@@ -199,7 +199,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 25px;
-    margin-top: 150px;
+    margin-block: 150px;
 
     .seta {
         font-size: 2rem;
@@ -235,6 +235,10 @@ nav {
         
     }
 }
+.etapa:hover svg {
+    color: var(--cor-secundaria);
+    text-shadow: 0 0 10px var(--cor-secundaria);
+} 
 
 .etapa:hover {
     transform: translateY(-10px);
@@ -242,6 +246,22 @@ nav {
     box-shadow: 0 0 10px 1px rgb(113, 112, 112);
 }
 
-.etapa:hover h3, svg {
+.etapa:hover h3 {
     color: var(--cor-secundaria);
 } 
+
+/* chamada final */
+
+.chamada-final .container{
+    background-image: none;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    padding-block: 7%;
+    padding-inline: 20px;
+    .titulo-secao span {
+        color: var(--cor-principal);
+    }
+    p {
+        color: var(--cor-branca);
+    }
+}
