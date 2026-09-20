@@ -9,7 +9,7 @@
     --cor-branca: #F7F9FA;
     --cor-preta: #0f0f0f;
     --fonte-titulo: "Stack Sans Notch", sans-serif;
-    --fonte-subtitulo: "Caacupe One", sans-serif;
+    --fonte-subtitulo: "Caacupe One", serif;
     --fonte-texto: "Chivo Mono", monospace;
 }
 
@@ -82,7 +82,7 @@ p {
         font-size: 25px;
         border-radius: 5px;
         transition: all 0.3s ease-in-out;
-        font-family: "Caacupe One", sans-serif;
+        font-family: var(--fonte-subtitulo);
     }
 
 .quiz-botao a:hover {
@@ -102,7 +102,7 @@ p {
         font-size: 25px;
         border-radius: 5px;
         transition: all 0.3s ease-in-out;
-        font-family: "Caacupe One", sans-serif;
+        font-family: var(--fonte-subtitulo);
     }
 
     .botao-secundario a:hover {

@@ -12,6 +12,8 @@ nav {
 }
 
 nav {
+    z-index: 9999;
+
     .divlogo {
         color: var(--cor-principal);
         font-size: 30px;
@@ -149,6 +151,11 @@ nav {
     font-size: 40px;
 }
 
+.chamada-final .quiz-botao {
+    padding-inline: 15px;
+    font-size: 40px;
+}
+
 .botoes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -158,9 +165,14 @@ nav {
 /* sobre */
 
 #sobre .container {
-    background-image: none;
+    min-height: 100dvh;
+    background-image: linear-gradient(to bottom, #e9e1b7 70%, transparent),  url(../img/fundo-pixelado.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 50rem;
     padding-block: 7%;
     padding-inline: 20px;
+    margin: -5px 0;
 
     .sobre-conteudo {
         display: grid;
@@ -258,10 +270,55 @@ nav {
     color: var(--cor-branca);
     padding-block: 7%;
     padding-inline: 20px;
-    .titulo-secao span {
-        color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .titulo-secao {
+        color: var(--cor-preta);
     }
-    p {
+
+    .titulo-secao span {
+        color: var(--cor-secundaria);
+    }
+
+    .subtitulo {
+        color: var(--cor-texto);
+    }
+
+    .quiz-botao a{
+        background-color: var(--cor-secundaria);
         color: var(--cor-branca);
+    }
+    
+        .quiz-botao a:hover {
+        box-shadow: 0 0 10px var(--cor-secundaria);
+        transform: translateY(-4px);
+    }
+
+    .botao-secundario a {
+        color: var(--cor-secundaria);
+        border: none;
+    }
+
+    .botoes {
+        margin-top: 30px;
+    }
+
+    .mensagem {
+        width: 60rem;
+        background-color: var(--cor-principal);
+        padding: 60px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px var(--cor-preta);
+        
+        .mensagem-container {
+            color: var(--cor-texto);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
     }
 }
