@@ -254,7 +254,7 @@ nav {
 
 .chamada-final .container{
     background-image: none;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-quaternaria);
     color: var(--cor-branca);
     padding-block: 7%;
     padding-inline: 20px;
