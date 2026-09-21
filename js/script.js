@@ -15,3 +15,6 @@ btnVoltarTopo.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+// Quiz
+
