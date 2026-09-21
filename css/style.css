@@ -13,6 +13,17 @@
     --fonte-texto: "Chivo Mono", monospace;
 }
 
+/* animações */
+
+@keyframes entrada {
+    0% {
+        transform: translateY(65px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /* reset */
 
 * {
@@ -67,6 +78,22 @@ p {
 
 .titulo-secao span {
     color: var(--cor-secundaria);
+}
+
+.btn-voltar-topo {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #06402bbb;
+    backdrop-filter: blur(10px);
+    color: var(--cor-branca);
+    border: 2px solid var(--cor-branca);
+    padding: 10px 15px;
+    font-size: 34px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
 }
 
 .quiz-botao {
