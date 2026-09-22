@@ -1,0 +1,28 @@
+nav {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    z-index: 9999;
+
+    .divlogo {
+        color: var(--cor-principal);
+        font-size: 30px;
+        font-family: var(--fonte-titulo);
+    }
+
+    .divlogo:hover a{
+        color: rgb(201, 197, 197);
+    }
+
+    span {
+        color: var(--cor-branca);
+    }
+}
