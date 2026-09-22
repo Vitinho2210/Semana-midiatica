@@ -78,8 +78,8 @@
         font-size: 3rem;
     }
 
-    .mensagem {
-        width: 15rem;
+    #chamada-final .container .mensagem {
+        width: 10rem;
     }
 
     .mensagem .mensagem-container {

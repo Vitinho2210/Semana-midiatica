@@ -19,10 +19,26 @@ nav {
     }
 
     .divlogo:hover a{
-        color: rgb(201, 197, 197);
+        color: rgb(221, 217, 217);
     }
 
     span {
         color: var(--cor-branca);
     }
 }
+
+/* introdução */
+
+#introducao .container {
+    padding-block: 9%;
+
+    .secao-conteudo {
+        padding-inline: 10rem;
+    }
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
