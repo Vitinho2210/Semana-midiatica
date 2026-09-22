@@ -1,5 +1,92 @@
-@media (min-width: 1280px) {
+@media (max-width: 500px) {
+    .divlogo {
+        display: none;
+    }
+
     .links {
-        margin-top: 250%;
+        padding-top: 90%;
+    }
+
+    .hero .titulo {
+        font-size: 4.2rem;
+        margin-top: 7rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+        padding-block: 2rem;
+        padding-inline: 30px;
+    }
+
+    .hero a {
+        padding: 20px 30px;
+        font-size: 2rem;
+    }
+
+    .hero .subtitulo {
+        padding-block: 2rem;
+    }
+
+    .botoes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .titulo-secao {
+        padding-top: 7rem;
+    }
+
+    #sobre .container .sobre-conteudo {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .sobre-texto p {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    #sobre .container .sobre-conteudo .sobre-img {
+        width: 21rem;
+    }
+
+    .sobre-img img {
+        width: 100%;
+    }
+
+    .evolucao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .evolucao .titulo-secao {
+        margin-bottom: 1rem;
+        margin-inline: 3rem;
+    }
+
+    .seta {
+        transform: rotate(90deg);
+    }
+
+    .chamada-final .titulo {
+        font-size: 3rem;
+    }
+
+    .mensagem {
+        width: 15rem;
+    }
+
+    .mensagem .mensagem-container {
+        padding: 30px;
+    }
+
+    footer p {
+        font-size: 15px;
     }
 }

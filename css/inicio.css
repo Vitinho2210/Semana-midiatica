@@ -142,7 +142,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-block: 15%;
+    padding: 15% 22%;
     gap: 35px;
 }
 
