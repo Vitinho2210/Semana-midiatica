@@ -215,12 +215,16 @@ nav {
 
 /* etapa */
 
+.titulo-secao {
+    margin-top: 70px;
+}
 .evolucao {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
     margin-block: 150px;
+
 
     .seta {
         font-size: 2rem;
