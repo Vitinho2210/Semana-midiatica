@@ -13,17 +13,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
 </head>
 <body class="quiz-body">
-    <div class="quiz-container">
-        <h2 class="titulo-secao">Quiz - Green IoT (Tecnologia da Informação Verde)</h2>
-        <div class="pergunta-container">
-            <h3 id="topico"></h3>
-            <p id="pergunta"></p>
-            <div id="alternativas"></div>
-            <div class="quiz-botao">
-                <button id="next" class="btn">Próxima Pergunta</button>
-            </div>
-        </div>
+    <div class="quiz-botao">
+        <a href="../index.html">&larr;&nbsp;Voltar</a>
     </div>
-    <script src="../js/script.js"></script>
+    
+    <div class="quiz-container">
+        <section id="quiz">
+            <div class="quiz-topo">
+                <span id="contador">Questão 1 de 20</span>
+                <span id="pontuacao">Acertos: 0</span>
+            </div>
+
+            <div class="progresso-container">
+                <div id="progresso"></div>
+            </div>
+            <h1 id="pergunta"></h1>
+            <div id="alternativas"></div>
+            <button id="proxima" disabled>
+                Próxima questão
+            </button>
+        </section>
+
+        <section id="resultado" class="resultado hidden">
+            <h1>Quiz finalizado!</h1>
+            <p>
+                Você acertou
+                <strong id="acertos-final"></strong>
+                de 20 questões.
+            </p>
+            <p>
+                Aproveitamento:
+                <strong id="porcentagem"></strong>
+            </p>
+            <button id="reiniciar">
+                Reiniciar quiz
+            </button>
+        </section>
+    </div>
+    <script src="../js/quiz.js"></script>
 </body>
 </html>

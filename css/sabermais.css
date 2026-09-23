@@ -29,25 +29,18 @@ nav {
 
 .container {
     padding: 20px;
-    padding-block: 7%;
+    padding-block: 9%;
 }
 
 /* introdução */
 
 #introducao .container {
-    padding-block: 9%;
 
     .secao-conteudo {
-        padding-inline: 10rem;
+        padding: 5rem 16rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
-    
-        img {
-            width: 1000px;
-            height: 500px;
-            padding-bottom: 50px;
-        }
     }
 }
 
@@ -61,12 +54,10 @@ nav {
     background-size: 50rem;
 }
 
-.evolucao {
+.fluxo {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 25px;
-    margin-block: 150px;
+    margin-block: 50px;
 
     .seta {
         font-size: 2rem;
@@ -75,8 +66,8 @@ nav {
         animation-range: entry 0% cover 30%; 
     }
 
-    .etapa {
-        width: 280px;
+    .parte {
+        width: 200px;
         aspect-ratio: 5/6;
         padding: 20px;
         display: flex;
@@ -117,22 +108,63 @@ nav {
         
     }
 }
-.etapa:hover svg {
+.parte:hover svg {
     color: var(--cor-secundaria);
     text-shadow: 0 0 10px var(--cor-secundaria);
 } 
 
-.etapa:hover {
+.parte:hover {
     transform: translateY(-10px);
     border-color: var(--cor-secundaria);
     box-shadow: 0 0 10px 1px rgb(113, 112, 112);
 }
 
-.etapa:hover h3 {
+.parte:hover h3 {
     color: var(--cor-secundaria);
 } 
 
-/**/
+/* sustentabilidade */
+
+#sustentabilidade .secao-conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+
+    .card {
+        width: 300px;
+        height: 400px;
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        box-shadow: 0 0 10px 1px gray;
+        
+        span {
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        h3 {
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            margin-block: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            padding: 10px;
+        }
+
+        .card:hover {
+            transform: ;
+        }
+    }
+}
 /**/
 /**/
 /**/

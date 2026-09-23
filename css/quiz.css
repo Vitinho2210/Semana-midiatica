@@ -1,10 +1,17 @@
 .quiz-body {
     background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    .quiz-botao {
+        margin-top: 20px;
+        margin-left: 20px;
+        position: absolute;
+    }
 }
 
 .quiz-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -12,4 +19,91 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-inline: 20px;
+}
+
+.quiz-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.quiz-topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.progresso-container {
+    width: 100%;
+    height: 10px;
+    background: var(--cor-branca);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#progresso {
+    height: 100%;
+    width: 0;
+    background: #066140;
+    transition: width 0.3s ease;
+}
+
+#pergunta {
+    margin-bottom: 25px;
+}
+
+#alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.alternativa {
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 6px;
+}
+
+.alternativa:hover {
+    background: #f1f1f1;
+}
+
+.alternativa.correta {
+    background: #b8e6c5;
+    border-color: #238b45;
+}
+
+.alternativa.errada {
+    background: #f2b8b8;
+    border-color: #b42323;
+}
+
+#proxima,
+#reiniciar {
+    margin-top: 25px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+#proxima:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.resultado p {
+    margin-top: 15px;
 }
