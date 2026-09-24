@@ -217,6 +217,9 @@ nav {
 
 .titulo-secao {
     margin-top: 70px;
+    animation: entrada linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;  
 }
 .evolucao {
     display: flex;
