@@ -7,4 +7,5 @@ A finalidade do projeto é praticar a estruturação de páginas com HTML, a est
 **Principais recursos:** estruturação de conteúdo, estilização da página, utilização de imagens e recursos de interatividade.
 
 **Tecnologias utilizadas:** HTML, CSS e JavaScript.
+
 ** Desenvolvedores:**Victor Alexandre, Nicollas Pereira, Henry, Wellington e Enzo Miguel
