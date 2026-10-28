@@ -1,11 +1,48 @@
-**Semana Midiática**
+# 📰 Semana Midiática
 
-O projeto Semana Midiática consiste no desenvolvimento de uma página web utilizando diferentes recursos de Programação Web. O repositório possui arquivos HTML, CSS, JavaScript e imagens, demonstrando a utilização conjunta dessas tecnologias para construir uma página mais completa e interativa.
+Repositório criado para organizar e apresentar os arquivos desenvolvidos durante a **Semana Midiática**.
 
-A finalidade do projeto é praticar a estruturação de páginas com HTML, a estilização com CSS e a utilização de JavaScript para adicionar comportamentos e interatividade usando estes para explicar o tema do grupo: GREEN IT.
+O projeto reúne as atividades, materiais e produções realizadas ao longo do trabalho, servindo como registro do desenvolvimento das atividades e dos conhecimentos adquiridos.
 
-**Principais recursos:** estruturação de conteúdo, estilização da página, utilização de imagens e recursos de interatividade.
+## 📚 Sobre o projeto
 
-**Tecnologias utilizadas:** HTML, CSS e JavaScript.
+A **Semana Midiática** é uma atividade voltada ao estudo e à produção de conteúdos relacionados à mídia e à comunicação.
 
-** Desenvolvedores:**Victor Alexandre, Nicollas Pereira, Henry, Wellington e Enzo Miguel
+Este repositório foi utilizado para manter os arquivos do projeto organizados e facilitar o acesso aos materiais produzidos durante as atividades.
+
+## 🎯 Objetivos
+
+- 📖 Desenvolver conhecimentos relacionados à mídia e à comunicação;
+- 💡 Estimular a criatividade e a produção de conteúdo;
+- 🧠 Aplicar os conhecimentos trabalhados durante as aulas;
+- 📂 Organizar os materiais e arquivos produzidos;
+- 🤝 Registrar o desenvolvimento das atividades realizadas durante a Semana Midiática.
+
+## 🗂️ Organização do repositório
+
+Os arquivos estão organizados de acordo com as atividades desenvolvidas durante o projeto.
+
+A estrutura pode ser atualizada conforme novos conteúdos e materiais forem adicionados.
+
+```text
+Semana-midiatica/
+├── arquivos e atividades
+├── materiais do projeto
+└── README.md
+```
+
+## 🛠️ Atividade escolar
+
+**Projeto:** Semana Midiática
+
+O conteúdo deste repositório foi desenvolvido como parte das atividades escolares.
+
+## 👨‍💻 Autor
+
+**Nicollas Pereira da Silva**
+
+Estudante do curso técnico em **Desenvolvimento de Sistemas**.
+
+---
+
+> 📰 Repositório criado para organizar e registrar as atividades desenvolvidas durante a Semana Midiática.
